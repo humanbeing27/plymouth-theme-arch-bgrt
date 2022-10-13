@@ -8,7 +8,7 @@ depends=(plymouth)
 source=($url/archive/refs/heads/main.zip)
 sha512sums=("SKIP")
 package() {
-mv $srcdir/$pkgname/usr $pkgdir
+mv $srcdir/$pkgname-main/usr $pkgdir
 chown -R root $pkgdir/*
 chgrp -R root $pkgdir/*
 }
