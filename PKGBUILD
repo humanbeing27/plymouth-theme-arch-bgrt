@@ -1,5 +1,6 @@
 pkgname=plymouth-theme-arch-spinner
 pkgver=1
+pkgrel=1
 pkgdesc="A theme that showcases a simple spinner and Arch logo"
 arch=(any)
 url="https://github.com/humanbeing27/plymouth-theme-arch-spinner"
