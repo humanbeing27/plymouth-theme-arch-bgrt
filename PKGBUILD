@@ -1,14 +1,12 @@
-pkgname=plymouth-theme-arch-spinner
-pkgver=1
+pkgname=plymouth-theme-arch-bgrt
+pkgver=2
 pkgrel=1
-pkgdesc="A theme that showcases a simple spinner and Arch logo"
+pkgdesc="Jimmac's spinner theme using the ACPI arch-bgrt graphics as background and The Arch Logo."
 arch=(any)
-url="https://github.com/humanbeing27/plymouth-theme-arch-spinner"
+url="https://github.com/humanbeing27/plymouth-theme-arch-bgrt"
 depends=(plymouth)
-source=($url/archive/refs/heads/main.zip)
-sha512sums=("SKIP")
+source=($url/raw/main/plymouth-theme-arch-bgrt.tar.gz)
+b2sums=("SKIP")
 package() {
-mv $srcdir/$pkgname-main/usr $pkgdir
-chown -R root $pkgdir/*
-chgrp -R root $pkgdir/*
+mv $srcdir/
 }
