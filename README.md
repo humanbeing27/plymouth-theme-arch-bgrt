@@ -1,6 +1,6 @@
 # Install
 ### Build 
-$ ``` curl -L https://raw.githubusercontent.com/humanbeing27/plymouth-theme-arch-bgrt/main/PKGBUILD -o ./PKGBUILD ```
+$ ``` curl -L https://github.com/humanbeing27/plymouth-theme-arch-bgrt/raw/main/PKGBUILD -o ./PKGBUILD ```
 
 $ ``` makepkg -sircC ```
 ### Install using prebuilt Package
