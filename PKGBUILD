@@ -8,5 +8,7 @@ depends=(plymouth)
 source=($url/raw/main/plymouth-theme-arch-bgrt.tar.gz)
 b2sums=("SKIP")
 package() {
-mv $srcdir/
+                  rm $srcdir/plymouth-theme-arch-bgrt.tar.gz
+                  mkdir -p $pkgdir/usr/share/plymouth/themes/arch-bgrt
+                  cp $srcdir/* $pkgdir/usr/share/plymouth/themes/arch-bgrt
 }
