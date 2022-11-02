@@ -1,11 +1,16 @@
 # Install
 ### Build 
-$ ``` curl -L https://github.com/humanbeing27/plymouth-theme-arch-bgrt/raw/main/PKGBUILD -o ./PKGBUILD ```
-
-$ ``` makepkg -sircC ```
+```sh 
+git clone https://github.com/humanbeing27/plymouth-theme-arch-bgrt.git arch-bgrt
+cd arch-bgrt
+makepkg -sircfC
+```
 ### Install using prebuilt Package
 The prebuilt package is available in releases and can be installed using:
-
-#`` pacman -U ./plymouth-theme-arch-bgrt-2-1-any.pkg.tar.zst ``
+```sh 
+sudo pacman -U ./plymouth-theme-arch-bgrt-2-1-any.pkg.tar.zst 
+```
 # Set as Theme
-#``` plymouth-set-default-theme -R arch-bgrt ```
+```sh
+sudo plymouth-set-default-theme -R arch-bgrt 
+```
